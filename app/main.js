@@ -7,8 +7,6 @@ const endPointDaApi =
 
 getBuscarLivrosdaApi();
 
-const elementoParaInserirLivros = document.getElementById('livros');
-
 //Função fetch:
 async function getBuscarLivrosdaApi() {
   const res = await fetch(endPointDaApi);
